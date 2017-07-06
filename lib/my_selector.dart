@@ -47,7 +47,8 @@ class MySelector extends PolymerElement with AutonotifyBehavior, Observable {
 //    controller.selected.surname = "Broken!!!";
 //    controller.selected = controller.data[2];
 
+    print('items right after change: ${controller.data.toList()}');
 
-    new Future(() => print(controller.data.toList()));
+    new Future(() => print('items a bit later: ${controller.data.toList()}'));
   }
 }
