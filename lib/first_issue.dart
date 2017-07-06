@@ -13,9 +13,6 @@ import 'package:web_components/web_components.dart';
 @PolymerRegister('first-issue')
 class FirstIssue extends PolymerElement with AutonotifyBehavior, Observable {
 
-  /// Shows state of loading app stuff.
-  ///
-  /// Until it's true main app shows preloading state.
   @observable
   @property
   ObservableList<MyData> data;
