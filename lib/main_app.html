@@ -1,0 +1,17 @@
+<dom-module id="main-app">
+    <style include="iron-flex iron-flex-alignment iron-positioning"></style>
+    <style>
+        :host {
+            @apply(--layout-fit);
+        }
+        div {
+            padding: 3px;
+        }
+    </style>
+    <template>
+        <div class="horizontal layout">
+            <my-selector controller="{{controller}}"></my-selector>
+            <my-viewer selected="{{controller.selected}}"></my-viewer>
+        </div>
+    </template>
+</dom-module>
