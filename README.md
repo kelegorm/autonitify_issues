@@ -14,9 +14,12 @@ Code of that button:
       controller.selected = controller.data[2];
       old.surname = "Broken!!!";
 
-      new Future(() => print(controller.data.toList()));
+      print('items right after change: ${controller.data.toList()}');
+
+      new Future(() => print('items a bit later: ${controller.data.toList()}'));
     }
 
 Print shows next:
 
-    [name: 1) First, surname: Broken!!!, name: 2) Second, surname: Griffin, name: 3) Third, surname: Broken!!!]
+    items right after change: [name: 1) First, surname: Broken!!!, name: 2) Second, surname: Griffin, name: 3) Third, surname: Stranger]
+    items a bit later: [name: 1) First, surname: Broken!!!, name: 2) Second, surname: Griffin, name: 3) Third, surname: Broken!!!]
