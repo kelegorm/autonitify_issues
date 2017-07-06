@@ -1,0 +1,40 @@
+name: autonitify_issues
+description: An absolute bare-bones web app.
+version: 0.0.1
+#homepage: https://www.example.com
+author: kelegorm <kelegorm1@gmail.com>
+
+environment:
+  sdk: '>=1.20.1 <2.0.0'
+
+dependencies:
+ autonotify_observe: ^1.0.0+10
+ polymer: ^1.0.0-rc.1
+ polymer_elements: ^1.0.0-rc.5
+ polymer_interop: ^1.0.0-rc.1
+ web_components: ^0.12.0
+
+dependency_overrides:
+ polymer:
+  hosted:
+   name: polymer
+   url: "http://pub.dart-polymer.com"
+  version: "1.0.0-rc.19.unofficial.1"
+ polymer_interop:
+  hosted:
+   name: polymer_interop
+   url: "http://pub.dart-polymer.com"
+  version: "1.0.0-rc.11.exp.20170113.0"
+ polymer_elements:
+  hosted:
+   name: polymer_elements
+   url: "http://pub.dart-polymer.com"
+  version: "1.0.0-rc.11+5"
+
+dev_dependencies:
+  browser: ^0.10.0
+
+transformers:
+- autonotify_observe:
+    entry_points:
+    - web/index.html

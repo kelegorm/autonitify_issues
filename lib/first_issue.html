@@ -1,0 +1,19 @@
+<dom-module id="first-issue">
+    <style include="iron-flex iron-flex-alignment iron-positioning"></style>
+    <style>
+        :host {
+            @apply(--layout-vertical);
+            @apply(--layout-fit);
+        }
+    </style>
+    <template>
+        <template is="dom-repeat" items="{{data}}">
+            <div class="flex horizontal layout">
+                <span>{{item.name}}</span>
+                <span>, </span>
+                <span>{{item.age}}</span>
+                <button on-click="btrRemove_click">remove</button>
+            </div>
+        </template>
+    </template>
+</dom-module>
