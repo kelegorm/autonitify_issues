@@ -1,7 +1,7 @@
 ### That branch shows some binding error.
 
 Run example in Dartium and take next actions:
- 1. TRy some buttons (1, 2, or 3) to get idea what info each button present.
+ 1. Try some buttons (1, 2, or 3) to get idea what info each button present.
  2. Click on First button.
  3. And click on "Break It" button to break that stuff.
  4. Switch back to first record, second and third. Bug here: now First and Third items has same brocken surname.
