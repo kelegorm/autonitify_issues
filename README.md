@@ -21,5 +21,14 @@ Code of that button:
 
 Print shows next:
 
-    items right after change: [name: 1) First, surname: Broken!!!, name: 2) Second, surname: Griffin, name: 3) Third, surname: Stranger]
-    items a bit later: [name: 1) First, surname: Broken!!!, name: 2) Second, surname: Griffin, name: 3) Third, surname: Broken!!!]
+    items right after change: [
+      name: 1) First, surname: Broken!!!, 
+      name: 2) Second, surname: Griffin, 
+      name: 3) Third, surname: Stranger
+    ]
+    
+    items a bit later: [
+      name: 1) First, surname: Broken!!!, 
+      name: 2) Second, surname: Griffin, 
+      name: 3) Third, surname: Broken!!!
+    ]
